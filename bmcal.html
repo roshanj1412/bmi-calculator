@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+    <style>
+        .container{
+            font-family: 'Roboto', sans-serif;
+            width: 400px;
+            height: 400px;
+            border: 2px red solid;
+            background-color: burlywood;
+            
+        }
+        .heading{
+            text-align: center;
+            color:chartreuse;
+            /* text-transform: capitalize; */
+        }
+        .weight{
+            margin: 10px 10px 20px 20px;
+            color: aqua;
+        }
+        #weight{
+            margin: 10px 10px 20px 20px; 
+        }
+        .height{
+            margin: 10px 10px 20px 20px;
+            color: aqua;
+        }
+        #height{
+            margin: 10px 10px 20px 20px; 
+        }
+        .bmi{
+            margin: 10px 10px 20px 20px;
+            color: aqua;
+        }
+        #bmi{
+            margin: 10px 10px 20px 80px; 
+        }
+       #button{
+            margin: 10px 10px 20px 140px; 
+            /* padding: 10px; */
+       }
+       .button:hover{
+        background-color: fuchsia;
+        color: yellow;
+        padding: 10px;
+       }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading">Bmi Calculator</h2>
+        <label for="weight" class="weight">Enter Your Weight:</label>
+        <input type="text" name="" id="weight" placeholder="Enter weight in kg">
+        <br>
+        <label for="" class="height"> Enter Your Height:</label>
+        <input type="text" name="" id="height" placeholder="Enter height in cm">
+        <br>
+        <label for="" class="bmi">Your BMI: </label>
+        <input type="text" name="" id="bmi">
+        <br>
+        <input type="button" value="Calculate BMI" class="button" id="button">
+
+        
+    </div>
+</body>
+</html>
